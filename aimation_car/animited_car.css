@@ -13,7 +13,7 @@
 }
 .highway {
   height: 300px;
-  width: 600%;
+  width: 700%;
   display: block;
   background-image: url(img/road.jpg);
   position: absolute;
@@ -101,13 +101,13 @@
   }
 }
 
-.bike img {
+.plane img {
   width: 400px;
   height: 200px;
 
-  animation: bike 1s linear infinite;
+  animation: plane 1s linear infinite;
 }
-@keyframes bike {
+@keyframes plane {
   100% {
     transform: translateY(-10px);
   }
